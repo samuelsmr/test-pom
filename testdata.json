@@ -1,0 +1,27 @@
+{
+    "baseUrl": "https://www.saucedemo.com",
+    "validUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "invalidUser": {
+      "username": "standard_user",
+      "password": "password"
+    },
+    "checkoutInfo": {
+      "firstName": "Samuel",
+      "lastName": "Sam",
+      "postalCode": "12345"
+    },
+    "messages": {
+      "expectedLoginError": "Username and password do not match",
+      "loginError": "Error Message do not match",
+      "checkoutSuccess": "Thank you for your order!"
+    },
+    "assertTitle": "Swag Labs",
+    "titleError": "Title does not include 'Swag Labs'",
+    "log": {
+      "LoginSuccess": "Testing Login Success!",
+      "LoginFailed": "Testing Login Failed = Success!"
+    }
+  }
